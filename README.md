@@ -16,5 +16,5 @@ docker run --gpus all -p 8188:8188 \
   -e S3_ACCESS_KEY="あなたのアクセスキー" \
   -e S3_SECRET_KEY="あなたのシークレットキー" \
   -e S3_BUCKET="バケット名" \
-  -e S3_ENDPOINT="https://s3.tyo1.sakuraobjectstorage.jp" \
+  -e S3_ENDPOINT="https://s3.isk01.sakurastorage.jp" \
   ghcr.io/r5-revo/comfyui-s3:latest
